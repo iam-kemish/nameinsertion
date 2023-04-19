@@ -5,7 +5,7 @@ const Dashboard = () => {
     const user = useContext(UserContext)
   return (
     <div>
-      <h1>Hi {user}, Your dashboard is here.</h1>
+      <h1>Hi {user}, euta kura vnnu x sunxau vane recommendations hera.</h1>
     </div>
   )
 }
