@@ -5,7 +5,7 @@ const Dashboard = () => {
     const user = useContext(UserContext)
   return (
     <div>
-      <h1>Hi {user}, euta kura vnnu x sunxau vane recommendations hera.</h1>
+      <h1 style={{fontFamily: "golden coast"}}>Hi {user}, euta kura vnnu x sunxau vane final entry hera🙂.</h1>
     </div>
   )
 }
