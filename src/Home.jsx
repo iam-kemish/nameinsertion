@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <div className='container my-3'>
        <div >
-      
-       <h2 style={{fontFamily: "courier, monospace"}}> hey there Firstly type your name on the input field and there click The edit name button on the side and check the First entry and final entry.</h2><br></br>
+        <h1>{user}'s home</h1><br/>
+       <h2 style={{fontFamily: "courier, monospace"}}> Hey there🧑,  Firstly type your name on the input field and there click The edit name button on the side and check the First entry and final entry.</h2><br></br>
        <input type="text" onChange={(e)=>setInputValue(e.target.value)}/>
        <button style={{marginLeft: "6px"}} className='btn btn-primary'onClick={handleClick}>Edit name</button>
        </div>
